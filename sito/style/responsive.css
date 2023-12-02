@@ -1,0 +1,105 @@
+@media (max-width: 991px) {
+  .servizio {
+    font-size: 25px !important; } }
+@media (max-width: 1199px) {
+  .visore #novita {
+    transform: translate(-50%, -46%) !important;
+    left: 50% !important; }
+    .visore #novita h3 {
+      font-size: 35px !important; }
+    .visore #novita a {
+      font-size: 18px !important; } }
+@media (max-width: 767px) {
+  .info {
+    text-align: center; }
+    .info p {
+      font-size: 20px !important; }
+    .info address {
+      font-size: 18px !important;
+      font-weight: 400; }
+    .info a {
+      font-size: 40px !important;
+      padding: 0 20px !important; }
+
+  #scuole .img img {
+    margin-top: 0 !important; }
+
+  .contattaci input {
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px; }
+  .contattaci textarea {
+    height: 150px;
+    font-size: 20px;
+    line-height: 30px; }
+  .contattaci .invio {
+    height: 40px;
+    font-size: 25px;
+    line-height: 30px; }
+
+  .mappa {
+    height: 400px; }
+
+  .footer {
+    padding-bottom: 5px; }
+    .footer address {
+      font-size: 15px !important; }
+    .footer .nome, .footer .io {
+      font-size: 10px;
+      padding: 0; }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9; }
+
+  .visore, .visoreInt {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100%;
+    padding: 0;
+    z-index: 3; }
+    .visore .barra1, .visoreInt .barra1 {
+      position: absolute;
+      height: 80px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 99 !important;
+      background-color: #279cd8; }
+      .visore .barra1 a, .visoreInt .barra1 a {
+        height: 100%;
+        width: 100%;
+        line-height: 80px;
+        text-align: center;
+        font-size: 40px;
+        display: block;
+        color: white;
+        text-decoration: none; }
+        .visore .barra1 a:hover, .visoreInt .barra1 a:hover {
+          color: white !important; }
+
+  .visoreInt {
+    height: 300px !important; }
+
+  .servizio {
+    font-size: 35px !important; }
+    .servizio:after {
+      display: none !important; }
+
+  .navbar-toggle {
+    margin-right: 15px !important; }
+
+  .navbar-nav a, .navbar-nav li, .navbar-nav i {
+    line-height: 40px !important;
+    height: 40px !important;
+    font-size: 25px !important; } }
+@media (max-width: 544px) {
+  .barra1 a {
+    font-size: 25px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */
